@@ -21,10 +21,10 @@ A complete, production-ready system for generating educational content (MCQs, fl
 
 ### Content Generation
 - **MCQ Questions** - Multiple choice questions with explanations
-- **Flashcards** - Front/back flashcard sets for revision
-- **Short Notes** - Concise chapter summaries
-- **Worksheets** - Mixed question papers
-- **Exam Papers** - Complete examination papers with mark distribution
+- **Fill in the Blank** - Fill in the blanks for assessment
+- **Very Short Questions** - Vsaqs for quick learning
+- **Short Questions** - Saqs for conceptual learning
+- **Long Questions** - Laqs for deep learning
 
 ### Smart Processing
 - **PDF Parsing** - Automatic extraction of chapters, topics, and concepts
@@ -82,8 +82,8 @@ A complete, production-ready system for generating educational content (MCQs, fl
        │
        ▼
 ┌──────────────────┐
-│  Claude API      │  ← Generate questions
-│  (Anthropic)     │     using retrieved context
+│  Gemini API      │  ← Generate questions
+│                  │     using retrieved context
 └──────┬───────────┘
        │
        ▼
@@ -97,7 +97,7 @@ A complete, production-ready system for generating educational content (MCQs, fl
 ## 📦 Prerequisites
 
 - **Python 3.8+**
-- **Anthropic API Key** (for Claude AI)
+- **Gemini API Key** (for Claude AI)
 - **2GB+ RAM** (for embedding models)
 - **10GB+ Storage** (for vector database)
 
@@ -610,17 +610,10 @@ Assuming Claude Sonnet:
 
 Example costs:
 - 10 MCQs: ~$0.03
-- 20 Flashcards: ~$0.04
-- 1 Exam Paper: ~$0.10
-- 1 Chapter Notes: ~$0.05
-
-**Monthly estimate for moderate use:**
-- 1000 MCQs
-- 500 Flashcards
-- 50 Worksheets
-- 10 Exam Papers
-
-**Total: ~$20-30/month**
+- 20 Fill ins: ~$0.04
+- 20 VSAQs: ~$0.04
+- 20 SAQs: ~$0.04
+- 20 LAQs: ~$0.04
 
 ---
 
