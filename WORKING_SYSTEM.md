@@ -34,7 +34,7 @@ Total: 6/6 tests passed
 
 ### 1. Your API Key is Already Set
 ```bash
-GEMINI_API_KEY=AIzaSyAMjVH7qEiNigUT408dg7WcmpX2LBOWHps
+GEMINI_API_KEY=*****
 LLM_PROVIDER=gemini
 GEMINI_MODEL=gemini-2.5-flash
 ```
