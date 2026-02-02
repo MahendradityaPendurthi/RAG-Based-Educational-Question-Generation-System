@@ -1,0 +1,29 @@
+{
+  "pdfs": [
+    {
+      "path": "./uploads/class_8_mathematics.pdf",
+      "class": 8,
+      "subject": "Mathematics"
+    },
+    {
+      "path": "./uploads/class_8_science.pdf",
+      "class": 8,
+      "subject": "Science"
+    },
+    {
+      "path": "./uploads/class_9_mathematics.pdf",
+      "class": 9,
+      "subject": "Mathematics"
+    },
+    {
+      "path": "./uploads/class_9_science.pdf",
+      "class": 9,
+      "subject": "Science"
+    },
+    {
+      "path": "./uploads/class_10_mathematics.pdf",
+      "class": 10,
+      "subject": "Mathematics"
+    }
+  ]
+}
