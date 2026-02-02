@@ -26,6 +26,11 @@ A complete, production-ready system for generating educational content (MCQs, fl
 - **Short Questions** - Saqs for conceptual learning
 - **Long Questions** - Laqs for deep learning
 
+### Generated Content
+- **Easy**
+- **Medium**
+- **Hard**
+
 ### Smart Processing
 - **PDF Parsing** - Automatic extraction of chapters, topics, and concepts
 - **Content Classification** - Auto-tagging as definitions, formulas, examples, etc.
